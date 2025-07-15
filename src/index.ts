@@ -13,7 +13,7 @@ const app: Express = express();
 
 app.use(express.json());
 app.use(cors({
-  origin: ['http://localhost:5173'],
+  origin: ['https://blogit-frontend-hhw0op53i-caren580s-projects.vercel.app'],
   methods: ['POST', 'GET', 'PATCH', 'DELETE', ],
   credentials: true
 }));
